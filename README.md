@@ -71,7 +71,7 @@ Desarrollar un modelo de machine learning capaz de predecir el riesgo de cáncer
 - `data/`: Carpeta para almacenar los datasets.
 - `notebooks/`: Jupyter notebooks para análisis exploratorio.
 - `src/`: Código fuente del proyecto.
-  - `preprocessing.py`: Funciones de preprocesamiento de datos y entrenamiento del modelo.
+  - `preprocessing.ipynb`: Funciones de preprocesamiento de datos y entrenamiento del modelo.
   - `interpretation.ipynb`: Notebook para análisis de interpretabilidad del modelo.
   - `app.py`: Interfaz de usuario con Streamlit.
 
