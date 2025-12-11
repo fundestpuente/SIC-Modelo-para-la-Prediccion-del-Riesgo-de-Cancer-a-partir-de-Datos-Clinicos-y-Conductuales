@@ -48,8 +48,40 @@ Desarrollar un modelo de machine learning capaz de predecir el riesgo de cáncer
 
 ## ⚙️ Instrucciones de Instalación y Ejecución
 
+
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/fundestpuente/SIC-Modelo-para-la-Prediccion-del-Riesgo-de-Cancer-a-partir-de-Datos-Clinicos-y-Conductuales.git
+   cd "SIC-Modelo-para-la-Prediccion-del-Riesgo-de-Cancer-a-partir-de-Datos-Clinicos-y-Conductuales"
+   ```
+
+2. **Actualizar pip e instalar dependencias**
+   ```bash
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+
+3. **Ejecutar la aplicación**
+   ```bash
+    streamlit run src/app.py
+    ```
+
 ## 📂 Estructura del Código
+
+- `data/`: Carpeta para almacenar los datasets.
+- `notebooks/`: Jupyter notebooks para análisis exploratorio.
+- `src/`: Código fuente del proyecto.
+  - `preprocessing.py`: Funciones de preprocesamiento de datos y entrenamiento del modelo.
+  - `interpretation.ipynb`: Notebook para análisis de interpretabilidad del modelo.
+  - `app.py`: Interfaz de usuario con Streamlit.
+
 
 ## ✅ Herramientas Implementadas
 
-## 📊 Resultados y Métricas
+- **Python 3.9+**
+- **Pandas**
+- **NumPy**
+- **Scikit-learn**
+- **Matplotlib**
+- **Seaborn**
+- **Streamlit**
